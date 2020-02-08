@@ -1,0 +1,24 @@
+{
+  "name": "parsavix/wordpress-plugin-framework",
+  "description": "A basic foundation to create wordpress plugins.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Parsavix",
+      "email": "60689746+parsavix@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "php-di/php-di": "^6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.*",
+    "symfony/var-dumper": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Parsavix\\WordPress\\": "src"
+    }
+  }
+}
